@@ -1,0 +1,64 @@
+@font-face {
+  font-family: rotulona;
+  src: url("rotulona-hand.ffp.ttf"=rotulona);
+}
+
+#banner {
+  width: 600px;
+  height: 100px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 500%;
+  color: white;
+  font-family: rotulona;
+}
+
+button {
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   border: 10px solid black;
+}
+#box {
+  height: 300px;
+  width: 400px;
+  border: 10px solid black;
+  margin-top: 300;
+  margin: auto;
+}
+#player1 {
+  float: left;
+  padding: 70px 0
+}
+#player2 {
+  float: right;
+  padding:    d 70px 0
+}
+#scoreboard {
+  height: 90px;
+  width: 120px;
+  padding: 5px;
+  border: 5px solid green;
+  margin: auto;
+  margin-top: 350px;
+}
+html {
+  background: url("./images/sidewalktexture.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.di {
+  display: inline-block;
+  vertical-align: middle;
+}
+#reloadbutton {
+  height: 40px;
+  width: 40px;
+  padding: 1px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 400px;
+}
+.table{
+  border-style: solid;
+}
