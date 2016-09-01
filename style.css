@@ -1,6 +1,6 @@
 @font-face {
-  font-family: rotulona;
-  src: url("rotulona-hand.ffp.ttf"=rotulona);
+  font-family: "rotulona";
+  src: url("./font/rotulona-hand.ffp.ttf") ;
 }
 
 #banner {
@@ -23,7 +23,9 @@ button {
 #box {
   height: 300px;
   width: 400px;
-  border: 10px solid black;
+  display: inline-block;
+  float: left;
+  margin-left: 210px;
   margin-top: 300;
   margin: auto;
 }
@@ -41,7 +43,11 @@ button {
   padding: 5px;
   border: 5px solid green;
   margin: auto;
-  margin-top: 350px;
+  margin-top: 200px;
+  margin-left: 345px;
+  color: black;
+  background-color: BurlyWood;
+  border-radius: 25px;
 }
 html {
   background: url("./images/sidewalktexture.jpg") no-repeat center fixed;
@@ -50,15 +56,19 @@ html {
 .di {
   display: inline-block;
   vertical-align: middle;
+  padding-left: 360px;
 }
 #reloadbutton {
   height: 40px;
-  width: 40px;
+  width: 60px;
   padding: 1px;
   border: 1px solid black;
   margin: auto;
   margin-top: 400px;
+  background-color: white;
+  margin-left: 350px;
 }
 .table{
   border-style: solid;
+  font: rotulona;
 }
