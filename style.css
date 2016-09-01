@@ -31,11 +31,20 @@ button {
 }
 #player1 {
   float: left;
-  padding: 70px 0
+  padding: 70px 0;
+  font-size: 18px;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+
 }
 #player2 {
   float: right;
-  padding:    d 70px 0
+  padding: 70px 0;
+  font-size: 18px;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
 }
 #scoreboard {
   height: 90px;

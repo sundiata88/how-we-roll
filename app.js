@@ -1,4 +1,7 @@
 
+
+
+
 var game = {
   player1: {
     name: "PLAYER 1",
@@ -34,7 +37,7 @@ function showWins(){
     game.currentPlayer.money = game.currentPlayer.money - 150
   }
 
-  $('#p1scoreboard').html(game.player1.money) 
+  $('#p1scoreboard').html(game.player1.money)
   $('#p2scoreboard').html(game.player2.money)
 
 }
