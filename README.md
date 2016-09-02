@@ -40,3 +40,9 @@ Unsolved problems:
 9. Timing of scoreboard and alerts
 10. CSS Styling
 11. Refreshing after wins or losses without having the user refresh the page
+
+To Come: 
+- better looking dice images
+- button decoration
+- rolling action of dice
+- 
